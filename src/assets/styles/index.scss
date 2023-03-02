@@ -1,0 +1,24 @@
+*,body{
+    background-color: #eed9ff;
+    // background-color: #00000085;
+    // color: rgb(255, 255, 0);
+}
+body, .h100{
+    height: 100vh;
+}
+.transparent{
+    background-color: transparent;
+}
+.bg-goldenrod{
+    // background-color: orange;
+    background-color: goldenrod
+}
+.maxw-90{
+    max-width: 90%;
+}
+.w-fit-content{
+    width: fit-content;
+}
+.br-20{
+    border-radius: 20px;
+}
