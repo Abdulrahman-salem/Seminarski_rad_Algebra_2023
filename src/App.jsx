@@ -12,7 +12,7 @@ class App extends Component {
             messages:[]
         };
 
-        this.drone = new window.Scaledrone('2DWaormOCQcuRQzd', { data: this.state.users } );
+        this.drone = new window.Scaledrone('KC6aNdCBPOIntTpW', { data: this.state.users } );
         this.room = this.drone.subscribe('Seminarski rad');
 
         this.drone.on('open', error => {
